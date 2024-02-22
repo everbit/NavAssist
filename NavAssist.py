@@ -82,10 +82,9 @@ with open("id_count.csv", encoding="utf8") as csvfile:
 # add a colour gradient to the layer
 layer_json["gradient"] = {
     "colors": [
-        "#ffe786",
-        "#ffaf66",
-        "#ff6646",
-        "#fa4d4d"
+        "#ff6666",
+        "#ffe766",
+        "#8ec843"
     ],
     "minValue": 0,
     "maxValue": max([technique["score"] for technique in layer_json["techniques"]])
